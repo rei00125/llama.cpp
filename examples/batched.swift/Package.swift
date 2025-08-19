@@ -9,7 +9,8 @@ let package = Package(
     .macOS(.v12),
     .iOS(.v15),
     .watchOS(.v4),
-    .tvOS(.v12)
+    .tvOS(.v12),
+    .visionOS(.v2)  // <-- この一行を追加！
 ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
